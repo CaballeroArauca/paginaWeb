@@ -75,3 +75,64 @@
     text-align: justify;
 
 }
+
+#integrantes{
+    background: #EEE;
+    padding: 5%;
+}
+
+.integrantes .equipo{
+    padding: 30px;
+
+}
+
+.equipo .equipoItem { 
+    position: relative; 
+    overflow: hidden; 
+    top: 0; left: 0;
+}
+
+.equipo .equipoItem img { 
+    display: block; 
+    position: relative; 
+}
+
+.equipo .equipoItem .mascara { 
+    position: absolute; 
+    overflow: hidden; 
+    top: 0; 
+    left: 0; 
+}
+.equipo .equipoItem img { 
+    -webkit-transition: 0.3s ease-in-out; 
+    -moz-transition: 0.3s ease-in-out; -o-transition: 0.3s ease-in-out; 
+    -ms-transition: 0.3s ease-in-out; 
+    transition: 0.3s ease-in-out; 
+}
+.equipo .equipoItem .mascara { 
+    -webkit-transform: translateX(-272px); 
+    -moz-transform: translateX(-272px); 
+    -o-transform: translateX(-272px); 
+    -ms-transform: translateX(-272px); 
+    transform: translateX(-272px); 
+    -webkit-transition: 0.3s ease-in-out; 
+    -moz-transition: 0.3s ease-in-out; 
+    -o-transition: 0.3s ease-in-out; 
+    -ms-transition: 0.3s ease-in-out; 
+    transition: 0.3s ease-in-out; 
+}
+
+.equipo .equipoItem:hover img { 
+    -webkit-transform: translateX(272px); 
+    -moz-transform: translateX(272px); 
+    -o-transform: translateX(272px); 
+    -ms-transform: translateX(272px); 
+    transform: translateX(272px); 
+}
+.equipo .equipoItem:hover .mascara { 
+    -webkit-transform: translateX(0px); 
+    -moz-transform: translateX(0px); 
+    -o-transform: translateX(0px); 
+    -ms-transform: translateX(0px); 
+    transform: translateX(0px); 
+}
