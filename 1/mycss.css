@@ -1,0 +1,45 @@
+ul.mainMenu li a:hover, 
+ul.mainMenu li a.active, 
+.serviceItem:hover .serviceImage, 
+.teams .teamItem .mask ul.teamSocial li a:hover, 
+.socialWrap .social a:hover, 
+.butn:hover { background-color:#44B7E2 !important; }
+.seperator .noteWrap .note { color:#44b7e2; }
+.butn:hover { border-color:#44B7E2; }
+
+
+
+ul.mainMenu { float:right; height:80px; overflow:hidden; list-style:none; }
+ul.mainMenu li { float:left; height:100%; overflow:hidden; }
+ul.mainMenu li a { display:block; height:100%; line-height:80px; padding:0px 20px; font-weight:300; text-decoration:none;  -webkit-transition: .2s all linear; -moz-transition: .2s all linear; -ms-transition: .2s all linear; -o-transition: .2s all linear; }
+ul.mainMenu li a:hover, ul.mainMenu li a.active { color:#FFF; }
+
+/*Our Team Start*/
+.teams { margin-top:30px;}
+
+.teams .teamItem { position: relative; overflow: hidden; top: 0; left: 0; max-width:270px; }
+.teams .teamItem img { display: block; width:100%; position: relative; }
+.teams .teamItem .mask { width:100%; height:100%; background-color:#FFF; position: absolute; overflow: hidden; top: 0; left: 0; }
+
+.teams .teamItem .mask .teamName { float:left; width:100%; text-align:left; margin:20px 20px; font-weight:700; color:#33373a; }
+.teams .teamItem .mask .teamTitle { float:left; text-align:left; margin:0px 20px 20px 20px; font-weight:700; color:#D8D8D8; }
+.teams .teamItem .mask .teamDesc { float:left; text-align:left; margin:0px 20px 20px 20px; font-weight:300; color:#D8D8D8; }
+
+.teams .teamItem .mask ul.teamSocial { width:100%; position:absolute; bottom:0px; list-style:none; }
+.teams .teamItem .mask ul.teamSocial li { float:left; overflow:hidden; }
+.teams .teamItem .mask ul.teamSocial li a { display:block; width:100%; height:100%; background-color:#D8D8D8; background-repeat:no-repeat; background-position:center; text-indent:-9999px; -webkit-transition: .4s all linear; -moz-transition: .4s all linear; -ms-transition: .4s all linear; -o-transition: .4s all linear; }
+
+.teams .teamItem .mask ul.teamSocial li a.fb { background-image:url('img/facebook.png'); }
+.teams .teamItem .mask ul.teamSocial li a.tw { background-image:url('img/twitter.png'); }
+.teams .teamItem .mask ul.teamSocial li a.lk { background-image:url('img/linkedin.png'); }
+.teams .teamItem .mask ul.teamSocial li a.dr { background-image:url('img/dribble.png'); }
+.teams .teamItem .mask ul.teamSocial li a.pn { background-image:url('img/pinterest.png'); }
+.teams .teamItem .mask ul.teamSocial li a.fl { background-image:url('img/flickr.png'); }
+
+/*Animations Start*/
+.teams .teamItem img { -webkit-transition: 0.3s ease-in-out; -moz-transition: 0.3s ease-in-out; -o-transition: 0.3s ease-in-out; -ms-transition: 0.3s ease-in-out; transition: 0.3s ease-in-out; }
+.teams .teamItem .mask { -webkit-transform: translateX(-272px); -moz-transform: translateX(-272px); -o-transform: translateX(-272px); -ms-transform: translateX(-272px); transform: translateX(-272px); -webkit-transition: 0.3s ease-in-out; -moz-transition: 0.3s ease-in-out; -o-transition: 0.3s ease-in-out; -ms-transition: 0.3s ease-in-out; transition: 0.3s ease-in-out; }
+
+.teams .teamItem:hover img { -webkit-transform: translateX(272px); -moz-transform: translateX(272px); -o-transform: translateX(272px); -ms-transform: translateX(272px); transform: translateX(272px); }
+.teams .teamItem:hover .mask { -webkit-transform: translateX(0px); -moz-transform: translateX(0px); -o-transform: translateX(0px); -ms-transform: translateX(0px); transform: translateX(0px); }
+/*Animations End*/
