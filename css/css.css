@@ -44,5 +44,24 @@
     }
 
     #about{
-        background: #2196F3;
+        background: #9BCADD;
     }
+    .imagen{
+        margin: 20px;
+        text-align: center;
+        padding: 10%;
+    }
+    #modal1{
+        margin-top: 40%;
+    }
+    #modal2{
+        margin-top: 150px;
+    }
+    #modal3{
+        margin-top: 150px;
+    }
+    .informa{
+        font-size: 200%;
+        color: black;
+    }
+    

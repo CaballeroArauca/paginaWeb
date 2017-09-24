@@ -42,9 +42,65 @@
     <!-- Container (About Section) -->
     <div id="about" class="container-fluid">
       <div class="row">
-        <div class="col-sm-4">uno</div>
-        <div class="col-xs-4">dos</div>
-        <div class="col-xs-4">Tres</div>
+        <div class="modal fade" id="quiensomos" role="dialog">
+          <div class="modal-dialog">
+            <div id="modal1" align="center" class="embed-responsive embed-responsive-16by9">
+              <video controls autoplay>
+                <source src="video/virtual.mp4" type="video/mp4"/>       
+              </video>
+            </div>            
+          </div>
+        </div>
+        <div class="modal fade" id="vision" role="dialog">
+          <div class="modal-dialog">
+            <div class="modal-content" id="modal2">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Visión</h4>
+              </div>
+              <div class="modal-body">
+                <p>Para el 2023 Virtual Araucano será una empresa de referencia regional donde se comprometera con los problemas de nuestros clientes de forma transparente y eficaz para convertirnos en su socio de confianza, que camina con el cambio de la tecnología y la sociedad, dando a conocer las posibilidades de desarrollo con herramientas TIC. Esta labor se debe desempeñar de forma ética y satisfactoria para nosotros, nuestros clientes y el resto de la sociedad.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+              </div>
+            </div>            
+          </div>
+        </div>
+        <div class="modal fade" id="mision" role="dialog">
+          <div class="modal-dialog">
+            <div class="modal-content" id="modal3">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Misión</h4>
+              </div>
+              <div class="modal-body">
+                <p>Virtual Araucano S.A.S, es una empresa constituida para ofrecer un acompañamiento y asesoramiento oportuno, creando ideas de innovación especialmente desarrolladas para las empresas de la región. Brindando la correcta gestión de las TIC para el fortalecimiento y posicionamiento de su marca, producto o empresa.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+              </div>
+            </div>            
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+          <div class="imagen">
+            <h1 class="informa">¿QUIENES SOMOS?</h1>
+            <img src="img/logosomos.png" class="img-responsive" data-toggle="modal" data-target="#quiensomos">
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+          <div class="imagen">
+          <h1 class="informa">MISIÓN</h1>
+            <img src="img/logomision.png" class="img-responsive" data-toggle="modal" data-target="#mision">
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+          <div class="imagen">
+            <h1 class="informa">VISIÓN</h1>
+            <img src="img/logovicion.png" class="img-responsive" data-toggle="modal" data-target="#vision">
+          </div>
+        </div>
       </div>
     </div>
 
