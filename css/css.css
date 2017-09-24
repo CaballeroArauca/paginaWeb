@@ -23,12 +23,8 @@
         letter-spacing: 4px;
         border-radius: 0;
         font-family: Montserrat, sans-serif;
-    }
+    }  
 
-    .navbar-brand img{
-        background: #fff;
-        padding: 10px;
-    }
     @media screen and (max-width: 768px) {
         .navbar-brand img{
             display: none;
@@ -46,3 +42,7 @@
     #about{
         background: #2196F3;
     }
+
+.navbar-toggle {
+    background: #fff;
+}
