@@ -13,6 +13,10 @@
         margin-bottom: 0px;
     }
 
+    .jumbotron img{
+        display: none;
+    }
+
     .navbar {
         margin-bottom: 0;
         background-color: #2196F3;
@@ -23,14 +27,19 @@
         letter-spacing: 4px;
         border-radius: 0;
         font-family: Montserrat, sans-serif;
-    }
+    }  
 
-    .navbar-brand img{
-        background: #fff;
-        padding: 10px;
-    }
     @media screen and (max-width: 768px) {
         .navbar-brand img{
+            display: none;
+        }
+
+        .jumbotron img{
+            display: initial;
+            width: 70%;
+        }
+
+        .jumbotron h1, h2{
             display: none;
         }
     }
@@ -43,6 +52,26 @@
         background-color: #fff !important;
     }
 
-    #about{
-        background: #2196F3;
-    }
+#about{
+    background: #2196F3;
+}
+
+.navbar-toggle {
+    background: #fff;
+}
+
+#services{
+    padding: 5%;
+}
+
+#services img{
+    padding: 10%;
+}
+
+#services h3{
+    text-align: center;
+}
+ #services p{
+    text-align: justify;
+
+}
