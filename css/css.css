@@ -13,6 +13,10 @@
         margin-bottom: 0px;
     }
 
+    .jumbotron img{
+        display: none;
+    }
+
     .navbar {
         margin-bottom: 0;
         background-color: #2196F3;
@@ -29,6 +33,15 @@
         .navbar-brand img{
             display: none;
         }
+
+        .jumbotron img{
+            display: initial;
+            width: 70%;
+        }
+
+        .jumbotron h1, h2{
+            display: none;
+        }
     }
 
     .navbar li a, .navbar .navbar-brand {
@@ -39,10 +52,26 @@
         background-color: #fff !important;
     }
 
-    #about{
-        background: #2196F3;
-    }
+#about{
+    background: #2196F3;
+}
 
 .navbar-toggle {
     background: #fff;
+}
+
+#services{
+    padding: 5%;
+}
+
+#services img{
+    padding: 10%;
+}
+
+#services h3{
+    text-align: center;
+}
+ #services p{
+    text-align: justify;
+
 }
