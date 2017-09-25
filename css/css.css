@@ -52,9 +52,28 @@
         background-color: #fff !important;
     }
 
-#about{
-    background: #2196F3;
-}
+    #about{
+        background: #EEE;
+        padding: 5%;
+    }
+
+    .imagen{
+        margin: 20px;
+        text-align: center;
+        padding: 10%;
+    }
+    #modal1{
+        margin-top: 40%;
+    }
+    #modal2{
+        margin-top: 150px;
+    }
+    #modal3{
+        margin-top: 150px;
+    }
+    .informa{
+        font-size: 200%;
+    }
 
 .navbar-toggle {
     background: #fff;
@@ -136,3 +155,4 @@
     -ms-transform: translateX(0px); 
     transform: translateX(0px); 
 }
+
